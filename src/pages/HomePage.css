@@ -1,0 +1,139 @@
+/* Global Styles */
+.homepage {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 0px;
+}
+
+/* Supporting NGOs Section */
+.support-section h1 {
+  font-size: 2.2rem;
+  font-weight: bold;
+}
+
+.support-section p {
+  max-width: 800px;
+  margin: 10px auto;
+  font-size: 1rem;
+  color: #333;
+}
+
+/* Features Section */
+.features {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 30px;
+  flex-wrap: wrap; /* Ensures responsiveness */
+}
+
+.feature {
+  max-width: 300px;
+  text-align: left; /* Align feature text */
+  padding: 15px;
+}
+
+.icon {
+  font-size: 2rem;
+  color: orange;
+}
+
+.feature h2 {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.feature p {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+/* Buttons */
+.contact-btn,
+.open-streamlit-btn {
+  background-color: green;
+  color: white;
+  border: none;
+  padding: 10px 20px; /* Reduced button size */
+  font-size: 0.9rem; /* Smaller font */
+  margin-top: 15px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: all 0.3s ease-in-out;
+  width: auto; /* Prevent full width */
+  min-width: 120px;
+}
+
+.contact-btn:hover,
+.open-streamlit-btn:hover {
+  background-color: darkgreen;
+}
+
+/* Join Our Mission Section */
+.mission-section {
+  margin-top: 50px;
+}
+
+.mission-section h2 {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.mission-section p {
+  font-size: 1rem;
+  max-width: 600px;
+  margin: 10px auto;
+}
+
+/* Get in Touch Section */
+.contact-section {
+  background-color: #f4f4f4;
+  padding: 30px 0;
+  margin-top: 40px;
+}
+
+.contact-section h4 {
+  font-size: 1rem;
+  color: #777;
+}
+
+.contact-section h2 {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.contact-section p {
+  font-size: 1rem;
+  color: #555;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .features {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .feature {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .mission-section,
+  .contact-section {
+    padding: 20px;
+  }
+
+  .contact-btn,
+  .open-streamlit-btn {
+    font-size: 0.8rem; /* Further reduction for smaller screens */
+    padding: 8px 16px;
+    min-width: 100px;
+  }
+}
+
+/* Button Container */
+.iframe-button-container {
+  text-align: center;
+  margin-top: 10px;
+}

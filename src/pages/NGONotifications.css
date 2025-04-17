@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@300;400&display=swap');
+
+.notification-container {
+  width: 100%;
+  max-width: 100%;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.no-notifications {
+  text-align: center;
+  font-size: 16px;
+  color: #666;
+  margin-top: 10px;
+}
+
+.ngo-notification {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f8f9fa;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: 400;
+  width: 100%;
+  transition: 0.3s ease-in-out;
+}
+
+.ngo-notification span {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  color: #333;
+}
+
+.dismiss-btn {
+  background: transparent;
+  border: none;
+  font-size: 20px; /* Increased size */
+  cursor: pointer;
+  color: #ff4d4d;
+  width: 40px; /* Set width */
+  height: 40px; /* Set height */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: all 0.3s ease-in-out;
+}
+
+.dismiss-btn:hover {
+  background: rgba(255, 77, 77, 0.2);
+  color: #d43f3f;
+  transform: scale(1.1);
+}
